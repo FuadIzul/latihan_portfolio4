@@ -1,0 +1,79 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbo {
+  padding-top: 6rem;
+  background-image: url(img/bg5.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  background-color: rgba(0, 0, 0, 0.3); /* Latar belakang semi-transparan */
+  width: 63vw;
+  padding: 2rem; /* Padding untuk konten */
+  margin: auto;
+  border-radius: 10px; /* Border radius */
+  text-align: center; /* Pusatkan teks secara horizontal */
+}
+
+.tentang {
+  background-color: rgb(160, 159, 159);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.tentang p {
+  text-align: justify;
+}
+
+.gallery {
+  background-color: rgb(207, 205, 205);
+  padding: 5rem;
+}
+
+.maps {
+  background-color: rgb(160, 159, 159);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.maps h2 {
+  margin-top: -7rem;
+}
+
+.maps p {
+  margin-top: -2rem;
+  margin-bottom: 5rem;
+}
+
+.maps iframe {
+  position: absolute;
+  top: 5;
+  left: 5;
+  width: 45%; /* Lebar penuh */
+  height: 30%; /* Tinggi penuh */
+  margin-top: -2rem;
+}
+
+.pesan {
+  background-color: rgb(207, 205, 205);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: #f8f9fa;
+}
