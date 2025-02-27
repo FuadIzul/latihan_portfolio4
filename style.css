@@ -4,6 +4,10 @@ html {
   padding: 0;
 }
 
+.d-none {
+  display: none;
+}
+
 .jumbo {
   padding-top: 6rem;
   background-image: url(img/bg5.jpg);
